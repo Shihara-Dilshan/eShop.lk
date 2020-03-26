@@ -66,7 +66,9 @@
   
       <div class="row">
           <h4>ssss</h4>
-      
+                    <h4>ssss</h4>
+          <h4>ssss</h4>
+
       <div class="row">
         <div class="input-field col s12">
           <input id="password" type="text" class="validate" name="bmanufast">
