@@ -1,0 +1,185 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <link href="css/fontawesome-free-5.12.1-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <style>
+        
+        
+        
+
+        @media screen and (min-width: 1368px) {
+        
+        #myForm{
+
+            padding:100px;
+
+
+        }
+        #myFooter{
+
+            margin-top:107px;
+
+
+        }
+
+        }
+
+        nav .badge{
+
+            position: relative;
+            top: 20px;
+            right:20px;
+
+
+        }  
+
+            
+    </style>
+
+    <body id="Home" class="scrollspy">
+      
+<div class="navbar-fixed">
+<nav class="teal">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand-logo"> eShop.lk</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+       
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="#" class="btn-floating teal darken-4 z-depth-0">
+          <i class="material-icons">child_friendly</i>
+        
+        </a></li>
+        <li>
+        <span class="badge white-text red"> in cart
+        
+        5
+        </span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+  <ul class="sidenav" id="mobile-demo">
+       
+         <li><a href="index.html">Home</a></li>
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="signup.html">Sign up</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="https://www.facebook.com" class="btn-floating white darken-4 z-depth-0">
+          <i class="material-icons">child_friendly</i>
+        
+        </a></li>
+        <li>
+        
+        <span class="badge white-text red">5 items in cart
+        
+        </span>
+        </li>
+  </ul>
+
+
+      
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      
+      <form action="login" method="post">
+      <div class="container" id="myForm">
+      
+ <div class="card-panel z-depth-3 ">
+  <div class="row">
+        <div class="col s12">
+            <div class="card-title center-align teal-text">
+                <h4>Login</h4>
+            </div>
+        </div>
+  </div>
+  <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" name="email">
+          <label for="email">Email</label>
+        </div>
+      </div>
+  
+  <div class="row">
+    <form class="col s12">
+      
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate" name="password">
+          <label for="password">Password</label>
+        </div>
+      </div>
+
+      <p class="center">
+      <label>
+        <input type="checkbox" class="filled-in" checked="checked" />
+        <span>Remeber me</span>
+      </label>
+     </p>
+      
+      
+      <div class="row">
+        <div class="col s12">
+        <input type="submit" value="Log in" class="btn" style="width:100%;">
+        
+        </div>
+      
+      </div>
+    </form>
+  </div>
+  </div>
+      
+      </div>
+      </form>
+
+
+      
+      <!--JavaScript at end of body for optimized loading-->
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <script>
+          $(document).ready(function(){
+          $('.sidenav').sidenav();
+        
+          });
+
+          $(document).ready(function(){
+          $('.slider').slider({indicators: false, height: 350, transition : 500,interval : 6000});
+          });
+
+          $(document).ready(function(){
+          $('.materialboxed').materialbox();
+          });
+          $(document).ready(function(){
+          $('select').formSelect();
+          });
+      </script>
+      
+
+      
+     <footer class="section teal darken-2 white-text center" id="myFooter">
+
+     <p class="flow-text">eShop.lk &copy 2020</p>
+
+
+    </footer>
+    </body>
+  </html>
