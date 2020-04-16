@@ -24,31 +24,19 @@
 
     <body id="Home" class="scrollspy test" background="image/woman-draw-a-light-bulb-in-white-board-37581051.jpg">
      <%
-         
-        
-        if(session.getAttribute("useremail") == null){
-            
-    %>        
+        if(session.getAttribute("useremail") == null){       
+     %>        
     
      <%@ include file="includes\headerNormal.jsp"  %>  
             
-    <% }else{ %> 
+     <% }else{ %> 
     
      <%@ include file="includes\headerlogin.jsp"  %>  
-   
-    
-    <% } %> 
+     <% } %> 
 
   
-
-
       
-
-      <!--JavaScript at end of body for optimized loading-->
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-      
-      <form action="login" method="post">  
+  <form action="login" method="post">  
       <div class="container" id="myForm">
       
           <div class="card-panel z-depth-3">
@@ -76,10 +64,10 @@
         </div>
       </div>
 
-      <p class="center">
+    <p class="center">
       <label>
         <input type="checkbox" class="filled-in" checked="checked" />
-        <span>Remeber me</span>
+        <span>Remember me</span>
       </label>
      </p>
       
@@ -95,16 +83,16 @@
   </div>
   </div>
       
-      </div>
-      </form>
+  </div>
+  </form>
 
 
       
-      <!--JavaScript at end of body for optimized loading-->
-      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!--JavaScript at end of body for optimized loading-->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
 
-      <script>
+  <script>
           $(document).ready(function(){
           $('.sidenav').sidenav();
         
@@ -120,11 +108,11 @@
           $(document).ready(function(){
           $('select').formSelect();
           });
-      </script>
+  </script>
       
 
       
-      <%@ include file="includes\footer.jsp"  %> 
-    </body>
-  </html>
+ <%@ include file="includes\footer.jsp"  %> 
+ </body>
+ </html>
   
